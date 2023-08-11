@@ -6,7 +6,7 @@ def on_connect(client, userdata, flags, rc):
 
     # publish a message
     for i in range(5):
-        client.publish('raspberry/ip', payload=i, qos=0, retain=False)
+        client.publish('raspberry/ip_address', payload=i, qos=0, retain=False)
         print(f"send {i} to raspberry/ip")
 
 
