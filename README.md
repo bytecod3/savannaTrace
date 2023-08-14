@@ -24,6 +24,8 @@ Based on the problem statement, the parameters used are as follows:
 ---
 ![Savanna trace flowchart](./tests/savanna-trace-flowchart.png)
 
+The code for this is in the ```c src/main.py ```  file.
+
 ## Tests
 ---
 I used a Raspberry Pi model 4B and the open source MQTTX application to perform tests. Below are the screenshots of these tests.
@@ -34,6 +36,10 @@ I used a Raspberry Pi model 4B and the open source MQTTX application to perform 
 ### MQTTX application receiving message
 ![Raspberry Pi](./tests/ip-address-mqttx.png)
 
-## Web Application
+### Demonstration
+I built a quick prototype to test the hardware. I used an I2C OLED screen to display the IP address. Below are the screenshots
 ---
-I used the Laravel framework to build the web app.
+Same IP address displaying on the OLED screen
+![Raspberry Pi](./tests/protoboard.jpg)
+
+![Raspberry Pi](./tests/protoboard-pi.jpg)
